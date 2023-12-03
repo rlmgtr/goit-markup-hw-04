@@ -248,6 +248,7 @@ body {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  align-items: center;
 }
 
 .nav-style {
@@ -291,6 +292,7 @@ body {
   padding: 24px 0;
 }
 
+
 .address-style-hwthree {
   display: flex;
   gap: 40px;
@@ -304,10 +306,13 @@ img {
 
 .first-section-hwthree {
   padding: 188px 0 188px;
+  justify-content: center;
+  align-items: center;
 }
 
 .firstsecheader-hwthree {
   max-width: 496px;
+  align-items: center;
 }
 
 .firstsec-button {
@@ -317,6 +322,7 @@ img {
   border: none;
   background-color: #4d5ae5;
   border-radius: 4px;
+  justify-content: center;
 }
 .firstsec-button {
   cursor: pointer;
@@ -498,13 +504,22 @@ img {
 
 /* ----------------header---------------- */
 
-.header-style {box-shadow: 0px 2px 1px rgba (46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba (46, 47, 66, 0.08)}
+.header-style {
+  box-shadow: 
+    0px 2px 1px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px rgba(46, 47, 66, 0.16), 
+    0px 1px 6px rgba(46, 47, 66, 0.08);
+}
 
 /* ----------------first section---------------- */
 
 .first-section-hwfour {
-background-image: ;
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+(./images/seconebgimg.jpeg);
 max-width: 1440px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 
 }
 
