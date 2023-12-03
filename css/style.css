@@ -1,0 +1,494 @@
+:root {
+  --white: #fff;
+  --ocean: #e7e9fc;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+/* styles for header */
+
+.logo-style {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+/* this is default LINK style - apply in all list tags*/
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover,
+:focus,
+:active {
+  color: #404bbf;
+}
+
+.inside-logo {
+  color: #2e2f42;
+}
+
+.list {
+  list-style: none;
+}
+
+.link-style {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.link-style:hover {
+  color: #404bbf;
+}
+.link-style:focus {
+  color: #404bbf;
+}
+.link-style:active {
+  color: #404bbf;
+}
+
+.address-style {
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.contacts-color {
+  color: #434455;
+}
+
+.contacts-color:hover {
+  color: #404bbf;
+}
+.contacts-color:focus {
+  color: #404bbf;
+}
+.contacts-color:active {
+  color: #404bbf;
+}
+
+/* styles for first section */
+.first-section {
+  background-color: #2e2f42;
+}
+.first-section-header {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.first-section-button {
+  background-color: #4d5ae5;
+  font-family: Roboto, sans-serif;
+  color: #434455;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.first-section-button {
+  cursor: pointer;
+}
+
+.portfoliobutton-li :focus,
+.portfoliobutton-li :hover {
+  background-color: var(--ocean);
+  color: var(white);
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+/* styles for second section */
+.section-two-headers {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.section-two-paragraphs {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+/* styles for thitd section */
+
+.section-three-header {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+/* styles for fourth section */
+.fourth-section {
+  background-color: #f4f4fd;
+}
+
+.fourth-section-header {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  background-color: #ffffff;
+}
+
+.employee-bgcolor {
+  background-color: #ffffff;
+}
+
+.fourthsectionemployee-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.fourthsectionemployee-position {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* styles for footer */
+.footer-style {
+  background-color: #2e2f42;
+}
+
+.footer-paragraph {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
+
+.footerinside-logo {
+  color: #f4f4fd;
+}
+
+/* this is for Portfolio Styling */
+
+/* this is for Portfolio Styling - main page */
+
+.portfoliobutton-style {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+}
+
+.portfolio-headers {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.portfoliobutton-style :hover,
+:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.portfoliobutton-style:hover {
+  color: #ffffff;
+}
+
+.portfoliobutton-style {
+  cursor: pointer;
+}
+
+.portfolio-p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* STYLES for HW3 starts HERE */
+
+/* HEADER - index and portfolio */
+
+.header-style {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.div-style {
+  display: flex;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.nav-style {
+  display: flex;
+  align-items: center;
+}
+
+.logo-style-hwthree {
+  margin-right: 76px;
+}
+
+.nav-style-hwthree {
+  display: flex;
+  gap: 40px;
+}
+
+.menu-style-hwthree {
+  display: flex;
+  margin-right: 40px;
+}
+
+.menu-style-hwthree {
+  gap: 40px;
+}
+
+.menustyle-li-hwthree {
+  gap: 40px;
+}
+
+.link-style-hwthree {
+  padding: 24px 0 24px;
+}
+
+.list-style-hwthree {
+  gap: 40px;
+  margin-right: 40px;
+  margin-right: 0;
+}
+
+.menulist-linkstyle-hwthree {
+  padding: 24px 0;
+}
+
+.address-style-hwthree {
+  display: flex;
+  gap: 40px;
+}
+
+img {
+  display: block;
+}
+
+/* Main page sec 1 - index */
+
+.first-section-hwthree {
+  padding: 188px 0 188px;
+}
+
+.firstsecheader-hwthree {
+  max-width: 496px;
+}
+
+.firstsec-button {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+}
+.firstsec-button {
+  cursor: pointer;
+}
+
+/* Main page sec 2 - index */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  outline: 0;
+  outline-offset: 0;
+}
+
+.second-section-hwthree {
+  padding: 120px 0 120px;
+}
+
+.sectwolist-hwthree {
+  display: flex;
+  gap: 24px;
+  margin-right: 24px;
+  padding: 0;
+}
+
+.features-item {
+  width: calc((100% - 72px) / 4);
+}
+
+.features-item :last-child {
+  margin-right: 0;
+}
+
+.section-two-headers-hwthree {
+  margin-bottom: 8px;
+}
+
+/* Main page sec 3 - index */
+
+.third-sec-hwthree {
+  padding-bottom: 120px;
+}
+
+.section-three-header-hwthree {
+  margin-bottom: 72px;
+}
+
+.secthree-ul-list-style {
+  display: flex;
+  gap: 24px;
+}
+
+.secthree-list-style-hwthree {
+  flex-basis: calc((100% - 48px) / 3);
+}
+
+/* Main page sec 4 - index */
+
+.fourth-section {
+  padding: 120px 0;
+}
+
+.fourth-section-header-hwthree {
+  margin-bottom: 72px;
+}
+
+.fourth-section-ul-hwthree {
+  display: flex;
+  gap: 24px;
+}
+
+.employeeliststyle-hwthree {
+  border-radius: 0px 0px 4px 4px;
+}
+
+.employeedivstyle-hwthree {
+  padding: 32px 0;
+}
+
+.employeenamestyle-hwthree {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.positionstyle-hwthree {
+  text-align: center;
+}
+
+/* Index Footer */
+
+.footer-style {
+  padding: 100px 0;
+}
+
+.footerlink-hwthree {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-p-hwthree {
+  max-width: 264px;
+}
+
+/* Portfolio Main */
+
+/* Portfolio Main - buttons */
+
+.portfoliosection-hwthree {
+  padding: 96px 0 120px 0;
+}
+
+.portfoliobuttonstyle-hwthree {
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+
+.portfoliobuttonstyle-hwthree {
+  border: 1px solid #e7e9fc;
+}
+
+.portfoliobuttonstyle-hwthree :hover,
+:focus {
+  border-color: transparent;
+}
+
+.portfoliobuttonstyle-hwthree {
+  border: 1px solid #e7e9fc;
+}
+.portfoliobuttonstyle-hwthree :hover {
+  border: 1px solid transparent;
+}
+
+.portfoliobuttonlist {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
+/* Portfolio Main - images, services */
+
+.portfolioservices-list-ul {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.portfoliolist-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+.linkdiv-hwthree {
+}
+
+.portdivstyle-hwthree {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+.portfolioheaders-hwthree {
+  margin-bottom: 8px;
+}
