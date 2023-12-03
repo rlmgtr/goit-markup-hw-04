@@ -510,6 +510,7 @@ max-width: 1440px;
 
 /* ----------------second section---------------- */
 .iconcontainer-hwfour {
+  display: flex;
   align-items: center;
   justify-content: center;
   height: 112px;
