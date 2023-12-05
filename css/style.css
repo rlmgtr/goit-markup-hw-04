@@ -585,7 +585,7 @@ justify-content: center;
 
 /* ----------------fifth section---------------- */
 .secfive-hwfour {
-  padding-top: 120px 0;  
+  padding-top: 120px;  
 }
 
 .secfiveheader-hwfour {
@@ -655,7 +655,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #FFFFFF;
 margin-bottom: 16px;
-
 }
 
 .footer-ul-hwfour {
