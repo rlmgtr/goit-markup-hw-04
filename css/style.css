@@ -627,7 +627,7 @@ list-style: none;
   color:#404bbf;
 }
 
-.secfivelink-hwfour:focus {
+.secfivelink-hwfour:active {
 border-color:#404bbf;
 color:#404bbf;
   
