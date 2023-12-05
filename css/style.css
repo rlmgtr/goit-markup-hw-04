@@ -691,6 +691,10 @@ justify-content: center;
   background-color:#31d0aa;
   }
 
+..footersocialslink:focus {
+  background-color:#31d0aa;
+}
+
 .footersvgli-hwfour {
 fill: var(--socmedcolor)
 
