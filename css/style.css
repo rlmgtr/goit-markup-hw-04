@@ -622,16 +622,13 @@ list-style: none;
   color: #8e8f99;
 }
 
-.secfivelink-hwfour:hover {
+.secfivelink-hwfour:hover,
+.secfivelink-hwfour:focus {
   border-color:#404bbf;
   color:#404bbf;
 }
 
-.secfivelink-hwfour:active {
-border-color:#404bbf;
-color:#404bbf;
-  
-}
+
 
 .svgstylesecfive-hwfour {
 fill: currentColor;
