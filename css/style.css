@@ -568,8 +568,7 @@ align-items: center;
 justify-content: center;
 }
 
-.socialslink-hwfour:hover, 
-.socialslink-hwfour:focus {background-color: 404bbf;}
+.socialslink-hwfour:hover, :focus {background-color: 404bbf;}
 
 .svgstylesecfour-hwfour {
   fill: var(--socmedcolor);
@@ -671,7 +670,8 @@ align-items: center;
 justify-content: center;
 }
 
-.footersocialslink :hover, :focus {
+.footersocialslink:hover,
+.footersocialslink:focus {
 background-color: #31d0aa
 }
 
