@@ -5,6 +5,7 @@
   --secfivelinkcolor: #8e8f99;
   --blue: 4d5ae5;
   --anotherblue: 404bbf;
+  --commonblue:  #4d5ae5;
 
 
 }
@@ -258,6 +259,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   align-items: center;
+  
 }
 
 .nav-style {
@@ -442,6 +444,7 @@ img {
 
 .footer-p-hwthree {
   max-width: 264px;
+  margin-bottom: 16px;
 }
 
 /* Portfolio Main */
@@ -632,6 +635,14 @@ fill:
 
 /* ----------------footer ---------------- */
 
+
+.footerdiv-hwfour {
+display:flex;
+align-items: baseline;
+
+
+
+}
 .footerlogopardiv {
 
   margin-right: 120px;
@@ -665,14 +676,14 @@ height: 40px;
 .footersocialslink {
 width: 100%;
 height: 100%;
-background-color: var(--blue);
+background-color: var(--commonblue);
 border-radius: 50%;
 display:flex;
 align-items: center;
 justify-content: center;
+
 }
 
-.footersocialslink:hover,
 .footersocialslink:focus {
 background-color:#31d0aa;
 }
