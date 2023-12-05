@@ -568,3 +568,42 @@ justify-content: center;
 .svgstylesecfour-hwfour {
   fill: var(--socmedcolor);
 }
+
+/* ----------------fifth section---------------- */
+.secfive-hwfour {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.secfiveheader-hwfour {
+font-size: 36px;
+line-height: 1.11;
+color: #2e2f42;
+margin-bottom: 72px;
+}
+
+.secfive-ul-hwfour {
+display: flex;
+gap: 24px;
+}
+
+.secfive-li-hwfour {
+  width: calc((100% - 120px) / 6);
+}
+
+.secfive-li-hwfour {
+  height: 88px;
+}
+
+.secfivelink-hwfour {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:
+
+}
+
+
+
