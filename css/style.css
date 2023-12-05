@@ -614,13 +614,13 @@ list-style: none;
 }
 
 .secfivelink-hwfour:hover {
-  border-color:  #404bbf;
-  color: #404bbf;
+  border-color:#404bbf;
+  color:#404bbf;
 }
 
 .secfivelink-hwfour:focus {
-border-color: #404bbf;
-color: #404bbf;
+border-color:#404bbf;
+color:#404bbf;
   
 }
 
@@ -673,7 +673,7 @@ justify-content: center;
 
 .footersocialslink:hover,
 .footersocialslink:focus {
-background-color: #31d0aa
+background-color:#31d0aa;
 }
 
 .footersvgli-hwfour {
