@@ -596,6 +596,7 @@ list-style: none;
 
 .secfive-li-hwfour {
   width: calc((100% - 120px) / 6);
+  height: 88px;
 }
 
 .secfive-li-hwfour {
