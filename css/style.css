@@ -568,7 +568,8 @@ align-items: center;
 justify-content: center;
 }
 
-.socialslink-hwfour:hover, :focus {background-color: 404bbf;}
+.socialslink-hwfour:hover,
+.socialslink-hwfour:focus {background-color:#404bbf;}
 
 .svgstylesecfour-hwfour {
   fill: var(--socmedcolor);
