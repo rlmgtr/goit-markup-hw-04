@@ -6,6 +6,7 @@
   --blue: 4d5ae5;
   --anotherblue: 404bbf;
   --commonblue:  #4d5ae5;
+  --skygreen: 31d0aa;
 
 
 }
@@ -683,9 +684,9 @@ align-items: center;
 justify-content: center;
 
 }
-
+.footersocialslink:hover
 .footersocialslink:focus {
-background-color:#31d0aa;
+background-color: var(--skygreen);
 }
 
 .footersvgli-hwfour {
