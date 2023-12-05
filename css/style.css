@@ -3,6 +3,8 @@
   --ocean: #e7e9fc;
   --socmedcolor: #f4f4fd;
   --secfivelinkcolor: #8e8f99;
+  --blue: 4d5ae5;
+
 
 }
 
@@ -179,6 +181,9 @@ body {
 /* styles for footer */
 .footer-style {
   background-color: #2e2f42;
+  display: flex;
+  align-items: center;
+
 }
 
 .footer-paragraph {
@@ -624,4 +629,52 @@ fill:
 
 }
 
+/* ----------------footer ---------------- */
 
+.footerlogopardiv {
+
+  margin-right: 120px;
+  
+}
+
+.footersocmedstyle-hwfour {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+margin-bottom: 16px;
+
+}
+
+.footer-ul-hwfour {
+  list-style: none;
+display: flex;
+gap: 16px;
+
+}
+
+.footer-li-hwfour {
+width: 40px;
+height: 40px;
+
+}
+
+.footersocialslink {
+width: 100%;
+height: 100%;
+background-color: var(--blue);
+border-radius: 50%;
+display:flex;
+align-items: center;
+justify-content: center;
+}
+
+.footersocialslink :hover, :focus {
+background-color: #31d0aa
+}
+
+.footersvgli-hwfour {
+fill: var(--socmedcolor)
+
+}
