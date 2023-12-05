@@ -5,7 +5,7 @@
   --secfivelinkcolor: #8e8f99;
   --blue: 4d5ae5;
   --anotherblue: 404bbf;
-  --commonblue: #4d5ae5;
+  --commonblue:  #4d5ae5;
   --skygreen: 31d0aa;
 
 
@@ -585,7 +585,8 @@ justify-content: center;
 
 /* ----------------fifth section---------------- */
 .secfive-hwfour {
-  padding-top: 120px;  
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .secfiveheader-hwfour {
@@ -621,10 +622,15 @@ list-style: none;
   color: #8e8f99;
 }
 
-.secfivelink-hwfour:hover,
+.secfivelink-hwfour:hover {
+  border-color:#404bbf;
+  color:#404bbf;
+}
+
 .secfivelink-hwfour:focus {
-  border-color:var(--commonblue);
-  color:var(--commonblue);
+border-color:#404bbf;
+color:#404bbf;
+  
 }
 
 .svgstylesecfive-hwfour {
@@ -655,6 +661,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #FFFFFF;
 margin-bottom: 16px;
+
 }
 
 .footer-ul-hwfour {
