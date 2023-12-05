@@ -688,7 +688,9 @@ justify-content: center;
 
 }
 
-.footersocialslink:hover,
+.footersocialslink:hover {
+  background-color: var(--skygreen);
+  }
 .footersocialslink:focus {
 background-color: var(--skygreen);
 }
