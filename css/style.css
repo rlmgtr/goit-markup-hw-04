@@ -543,6 +543,7 @@ background-size: cover;
   display: flex;
   justify-content: center;
   gap: 24px;
+  list-style: none;
 }
 
 .socialsstyle-hwfour {
