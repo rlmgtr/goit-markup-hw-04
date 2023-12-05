@@ -678,3 +678,9 @@ background-color: #31d0aa
 fill: var(--socmedcolor)
 
 }
+
+.footerdiv-hwfour {
+display: flex;
+align-items: baseline;
+
+}
