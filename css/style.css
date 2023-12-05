@@ -2,6 +2,8 @@
   --white: #fff;
   --ocean: #e7e9fc;
   --socmedcolor: #f4f4fd;
+  --secfivelinkcolor: #8e8f99;
+
 }
 
 body {
@@ -601,9 +603,25 @@ gap: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color:
-
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  color: #8e8f99;
 }
 
+.secfivelink-hwfour :hover {
+  border-color:  #404bbf;
+  color: #404bbf;
+}
+
+.secfivelink-hwfour :focus {
+border-color: #404bbf;
+color: #404bbf;
+  
+}
+
+.svgstylesecfive-hwfour {
+fill: 
+
+}
 
 
