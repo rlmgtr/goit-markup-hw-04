@@ -523,7 +523,7 @@ img {
 
 .first-section-hwfour {
 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-(./images/seconebgimg.jpeg);
+url(../images/seconebgimg.jpg);
 max-width: 1440px;
 background-repeat: no-repeat;
 background-position: center;
@@ -592,6 +592,7 @@ margin-bottom: 72px;
 .secfive-ul-hwfour {
 display: flex;
 gap: 24px;
+list-style: none;
 }
 
 .secfive-li-hwfour {
@@ -651,6 +652,7 @@ margin-bottom: 16px;
   list-style: none;
 display: flex;
 gap: 16px;
+
 
 }
 
