@@ -613,12 +613,12 @@ list-style: none;
   color: #8e8f99;
 }
 
-.secfivelink-hwfour :hover {
+.secfivelink-hwfour:hover {
   border-color:  #404bbf;
   color: #404bbf;
 }
 
-.secfivelink-hwfour :focus {
+.secfivelink-hwfour:focus {
 border-color: #404bbf;
 color: #404bbf;
   
