@@ -378,7 +378,7 @@ list-style: none;
 }
 
 .section-five-li {
-  flex-basis:calc((100% - 120px) / 6);
+  flex-basis:calc((100% - 24px) / 6);
   height:88px;
 }
 
