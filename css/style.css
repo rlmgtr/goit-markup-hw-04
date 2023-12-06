@@ -561,7 +561,7 @@ fill: currentColor;
     }
 
   .footer-svg {
-  fill: var(--socmedcolor)
+  fill: var(--cloud)
   }
 
 .footer-style {
@@ -596,6 +596,6 @@ justify-content: center;
 .socmed-link:focus {background-color: var(--ocean);}
 
 .socmed-svg-style {
-  fill: var(--socmedcolor);
+  fill: var(--cloud);
 }
 /* ----------- -------------------------------end of styles----------------------------------------- ------------*/
