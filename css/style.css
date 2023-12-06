@@ -27,6 +27,8 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+/* hw3 */
+    margin-right: 76px;
   }
 
 .link:hover,
@@ -42,6 +44,8 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+/* hw3 */
+  padding: 24px 0;
 }
 
 .link-style:hover {
@@ -98,9 +102,7 @@
   gap: 40px;
 }
 
-.logo-style-hwthree {
-  margin-right: 76px;
-}
+
 
 
 
@@ -127,9 +129,7 @@
   margin-right: 0;
 }
 
-.menulist-linkstyle-hwthree {
-  padding: 24px 0;
-}
+
 
 .address-style-hwthree {
   display: flex;
@@ -148,10 +148,6 @@ img {
   0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-/* ----------------first section---------------- */
-
-
-
 /* ----------- index section one ------------*/
 .first-section {
   background-color: #2e2f42;
@@ -168,7 +164,6 @@ img {
   background-position: center;
   background-size: cover;
 }
-
 
 
 .first-section-header {
@@ -299,14 +294,12 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  /* hw3 */
+  margin-bottom: 72px;
 }
 /* hw3 */
 .third-sec-hwthree {
   padding-bottom: 120px;
-}
-
-.section-three-header-hwthree {
-  margin-bottom: 72px;
 }
 
 .secthree-ul-list-style {
@@ -331,11 +324,11 @@ img {
   text-transform: capitalize;
   color: #2e2f42;
   background-color: #ffffff;
+/* hw3 */
+  margin-bottom: 72px;
 }
 
-.employee-bgcolor {
-  background-color: #ffffff;
-}
+
 
 .fourthsectionemployee-name {
   font-weight: 500;
@@ -343,7 +336,11 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  /* hw3 */
+  text-align: center;
+  margin-bottom: 8px;
 }
+
 
 .fourthsectionemployee-position {
   font-size: 16px;
@@ -357,29 +354,26 @@ img {
   padding: 120px 0;
 }
 
-.fourth-section-header-hwthree {
-  margin-bottom: 72px;
-}
+
 
 .fourth-section-ul-hwthree {
   display: flex;
   gap: 24px;
 }
 
-.employeeliststyle-hwthree {
+.employee-li-style {
+  background-color: #ffffff;
+/* hw3 */
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-  0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08)
 }
 
 .employeedivstyle-hwthree {
   padding: 32px 0;
 }
 
-.employeenamestyle-hwthree {
-  text-align: center;
-  margin-bottom: 8px;
-}
+
 
 .positionstyle-hwthree {
   text-align: center;
@@ -434,7 +428,6 @@ justify-content: center;
 
 /* ----------- index section five ------------*/
 /* hw4 */
-
 .secfive-hwfour {
   padding-top: 120px;
   padding-bottom: 120px;
