@@ -598,7 +598,6 @@ fill: currentColor;
 .employee-socmed-li {
   width: 40px;
   height: 40px;
-
 }
 
 
@@ -614,6 +613,9 @@ justify-content: center;
 
 .socmed-link:hover,
 .socmed-link:focus {background-color: var(--ocean);}
+
+.socmed-link:focus,
+.socmed-link:hover {background-color: var(--ocean);}
 
 .socmed-svg-style {
   fill: var(--cloud);
