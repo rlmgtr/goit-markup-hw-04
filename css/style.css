@@ -483,7 +483,6 @@ fill: currentColor;
 }
 
 /* hw4 */
-
 .portfolio-link {
   display:block;
   }
@@ -493,8 +492,6 @@ fill: currentColor;
    {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   }
-  
-  
 
 /* ----------- footer style - index and portfolio ------------*/
 .footer-style {
@@ -570,10 +567,6 @@ fill: currentColor;
   padding: 100px 0;
 }
 
-
-
-
-
 /* hw4 */
 .employee-socmed-ul {
 
@@ -604,6 +597,4 @@ justify-content: center;
 .socmed-svg-style {
   fill: var(--socmedcolor);
 }
-  
 /* ----------- -------------------------------end of styles----------------------------------------- ------------*/
-  
