@@ -106,16 +106,12 @@
 
 
 
-.menustyle-ul-hwthree {
+.menustyle-ul {
   display: flex;
   margin-right: 40px;
-}
+  gap: 40px;}
 
-.menustyle-ul-hwthree {
-  gap: 40px;
-}
-
-.menustyle-li-hwthree {
+.menustyle-li {
   gap: 40px;
 }
 
@@ -131,7 +127,7 @@
 
 
 
-.address-style-hwthree {
+.address-style-ul {
   display: flex;
   gap: 40px;
 }
