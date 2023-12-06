@@ -540,7 +540,7 @@ fill: currentColor;
 }
 
 /* hw4 */
-.footerdiv-hwfour {
+.footer-div {
   display:flex;
   align-items: baseline;
   }
@@ -580,17 +580,12 @@ fill: currentColor;
   }
   
   .footer-socmed-link:hover,
-  .footer-socmed-link:focus {
+ .footer-div .footer-socmed-link:focus {
     background-color:#31d0aa;
     }
 
   .footer-svg {
   fill: var(--socmedcolor)
-  }
-  
-  .footerdiv-hwfour {
-  display: flex;
-  align-items: baseline;
   }
 
 .footer-style {
