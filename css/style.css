@@ -477,10 +477,20 @@ fill: currentColor;
   column-gap: 24px;
   row-gap: 48px;
 }
+
+.portfolio {flex-basis: calc((100% - 48px) / 3);}
+
+
 .portfolio-list-container {
   padding: 32px 16px;
   border: 1px solid var(--cornflower);
   border-top: none;
+}
+
+.portfolio-list-container .portfolio-headers {margin-bottom: 8px; }
+
+.portfolio:nth-last-child(-n + 3) {
+  margin-bottom: 0;
 }
 
 /* hw4 */
