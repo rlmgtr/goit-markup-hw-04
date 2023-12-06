@@ -153,6 +153,12 @@ img {
   background-position: center;
   background-size: cover;
 }
+/* added to center */
+.hero-section {
+  padding: 188px 0;
+  max-width: 1440px;
+  margin: 0 auto;
+}
 
 .first-section-header {
   font-size: 56px;
@@ -547,18 +553,18 @@ fill: currentColor;
   margin-bottom: 16px;
   }
   
-  .footer-ul-hwfour {
+  .footer-ul {
   list-style: none;
   display: flex;
   gap: 16px;
   }
   
-  .footer-li-hwfour {
+  .footer-li {
   width: 40px;
   height: 40px;
   }
   
-  .footersocialslink {
+  .footer-socmed-link {
   width: 100%;
   height: 100%;
   background-color: var(--commonblue);
@@ -568,12 +574,12 @@ fill: currentColor;
   justify-content: center;
   }
   
-  .footersocialslink:hover,
-  .footersocialslink:focus {
+  .footer-socmed-link:hover,
+  .footer-socmed-link:focus {
     background-color:#31d0aa;
     }
 
-  .footersvgli-hwfour {
+  .footer-svg {
   fill: var(--socmedcolor)
   }
   
