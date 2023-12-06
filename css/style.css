@@ -102,10 +102,6 @@
   gap: 40px;
 }
 
-
-
-
-
 .menustyle-ul {
   display: flex;
   margin-right: 40px;
@@ -125,8 +121,6 @@
   margin-right: 0;
 }
 
-
-
 .address-style-ul {
   display: flex;
   gap: 40px;
@@ -137,7 +131,6 @@ img {
 }
 
 /* hw4 */
-
 .header-style {
   box-shadow: 
   0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -160,7 +153,6 @@ img {
   background-position: center;
   background-size: cover;
 }
-
 
 .first-section-header {
   font-size: 56px;
@@ -207,13 +199,6 @@ img {
   cursor: pointer;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
-
-
-
-
-/* hw4 */
-
 
 /* ----------- index section two ------------*/
 .section-two-headers {
@@ -269,9 +254,6 @@ img {
 }
 
 
-
-/* hw4 */
-
 .iconcontainer-hwfour {
   display: flex;
   align-items: center;
@@ -324,8 +306,6 @@ img {
   margin-bottom: 72px;
 }
 
-
-
 .fourthsectionemployee-name {
   font-weight: 500;
   font-size: 20px;
@@ -336,7 +316,6 @@ img {
   text-align: center;
   margin-bottom: 8px;
 }
-
 
 .fourthsectionemployee-position {
   font-size: 16px;
@@ -349,8 +328,6 @@ img {
 .fourth-section {
   padding: 120px 0;
 }
-
-
 
 .fourth-section-ul-hwthree {
   display: flex;
@@ -369,57 +346,8 @@ img {
   padding: 32px 0;
 }
 
-
-
 .positionstyle-hwthree {
   text-align: center;
-}
-
-/* Index Footer */
-
-.footer-style {
-  padding: 100px 0;
-}
-
-.footerlink-hwthree {
-  display: inline-block;
-  margin-bottom: 16px;
-}
-
-.footer-p-hwthree {
-  max-width: 264px;
-  margin-bottom: 16px;
-}
-
-/* hw4 */
-.employess-socials-hwfour {
-
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-  list-style: none;
-}
-
-.socialsstyle-hwfour {
-  width: 40px;
-  height: 40px;
-}
-
-.socialslink-hwfour {
-width: 100%;
-height: 100%;
-background-color:  #4d5ae5;
-border-radius: 50%;
-display: flex;
-align-items: center;
-justify-content: center;
-}
-
-.socialslink-hwfour:hover,
-.socialslink-hwfour:focus {background-color:#404bbf;}
-
-.svgstylesecfour-hwfour {
-  fill: var(--socmedcolor);
 }
 
 /* ----------- index section five ------------*/
@@ -654,5 +582,50 @@ fill: currentColor;
   align-items: baseline;
   }
 
+.footer-style {
+  padding: 100px 0;
+}
+
+.footerlink-hwthree {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-p-hwthree {
+  max-width: 264px;
+  margin-bottom: 16px;
+}
+
+/* hw4 */
+.employess-socials-hwfour {
+
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  list-style: none;
+}
+
+.socialsstyle-hwfour {
+  width: 40px;
+  height: 40px;
+}
+
+.socialslink-hwfour {
+width: 100%;
+height: 100%;
+background-color:  #4d5ae5;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.socialslink-hwfour:hover,
+.socialslink-hwfour:focus {background-color:#404bbf;}
+
+.svgstylesecfour-hwfour {
+  fill: var(--socmedcolor);
+}
+  
 /* ----------- -------------------------------end of styles----------------------------------------- ------------*/
   
