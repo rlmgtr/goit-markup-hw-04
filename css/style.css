@@ -113,15 +113,8 @@
   gap: 40px;
 }
 
-.link-style-hwthree {
-  padding: 24px 0 24px;
-}
 
-.list-style-hwthree {
-  gap: 40px;
-  margin-right: 40px;
-  margin-right: 0;
-}
+
 
 .address-style-ul {
   display: flex;
@@ -469,14 +462,6 @@ fill: currentColor;
   padding: 96px 0 120px 0;
 }
 
-.portfoliobuttonstyle-hwthree {
-  padding: 12px 24px;
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
-}
-
-
-
 .portfolio-button-ul {
   display: flex;
   justify-content: center;
@@ -496,14 +481,6 @@ fill: currentColor;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-
-.portdivstyle-hwthree {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-}
-
-
 
 /* hw4 */
 
