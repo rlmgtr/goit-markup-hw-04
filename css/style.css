@@ -29,6 +29,8 @@
     color: #4d5ae5;
 /* hw3 */
     margin-right: 76px;
+    display: inline-block;
+    margin-bottom: 16px;
   }
 
 .link:hover,
@@ -358,7 +360,7 @@ img {
 
 /* ----------- index section five ------------*/
 /* hw4 */
-.secfive-hwfour {
+.section-five {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -591,10 +593,7 @@ fill: currentColor;
   padding: 100px 0;
 }
 
-.footerlink-hwthree {
-  display: inline-block;
-  margin-bottom: 16px;
-}
+
 
 
 
