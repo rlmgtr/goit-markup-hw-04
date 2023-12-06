@@ -378,7 +378,7 @@ list-style: none;
 }
 
 .section-five-li {
-  flex-basis:calc((100% - 24px) / 6);
+  flex-basis:calc((100% - 120px) / 6);
   height:88px;
 }
 
@@ -398,6 +398,10 @@ list-style: none;
   border-color: var(--ocean);
   color: var(--ocean);
 }
+
+.section-five-link:focus {border-color: var(--ocean);
+background-color: var(--ocean);}
+
 
 .svg-style-section-five {
 fill: currentColor;
