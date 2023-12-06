@@ -366,18 +366,18 @@ justify-content: center;
 margin-bottom: 72px;
 }
 
-.secfive-ul-hwfour {
+.section-five-ul {
 display: flex;
 gap: 24px;
 list-style: none;
 }
 
-.secfive-li-hwfour {
+.section-five-li {
   width:calc((100% - 120px) / 6);
   height:88px;
 }
 
-.secfivelink-hwfour {
+.section-five-link {
   width: 100%;
   height: 100%;
   display: flex;
@@ -388,8 +388,8 @@ list-style: none;
   color: #8e8f99;
 }
 
-.secfivelink-hwfour:hover,
-.secfivelink-hwfour:focus {
+.section-five-link:hover,
+.section-five-link:focus {
   border-color:#404bbf;
   color:#404bbf;
 }
