@@ -399,8 +399,9 @@ list-style: none;
   color: var(--ocean);
 }
 
-.section-five-link:focus {border-color: var(--ocean);
-background-color: var(--ocean);}
+.section-five-link:focus {border-color: var(--ocean);}
+.section-five-link:focus {background-color: var(--ocean); }
+
 
 
 .svg-style-section-five {
