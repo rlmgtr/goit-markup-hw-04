@@ -614,8 +614,6 @@ justify-content: center;
 .socmed-link:hover,
 .socmed-link:focus {background-color: var(--ocean);}
 
-.socmed-link:focus,
-.socmed-link:hover {background-color: var(--ocean);}
 
 .socmed-svg-style {
   fill: var(--cloud);
