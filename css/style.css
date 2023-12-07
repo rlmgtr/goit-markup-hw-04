@@ -513,9 +513,8 @@ fill: currentColor;
   letter-spacing: 0.02em;
   color: var(--cornflower);
   letter-spacing: 0.02em;
-  margin-bottom: 16px;
 /* hw3 */
- max-width: 264px;
+max-width: 264px;
  display: block;
 margin-bottom: 16px;
 }
