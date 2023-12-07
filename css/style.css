@@ -539,15 +539,18 @@ fill: currentColor;
   }
   
   .footer-ul {
+    display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 16px;
   list-style: none;
+ 
   }
   
   .footer-li {
   width: 40px;
   height: 40px;
+  display: block;
   }
 
   .footer-socmed-link {
