@@ -480,7 +480,7 @@ fill: currentColor;
   border-top: none;
 }
 
-.portfolio-list-container .portfolio-headers {margin-bottom: 8px; }
+.portfolio-list-container .portfolio-headers {margin-bottom: 8px;}
 
 .portfolio:nth-last-child(-n + 3) {
   margin-bottom: 0;
@@ -600,4 +600,4 @@ justify-content: center;
 .socmed-svg-style {
   fill: var(--cloud);
 }
-/* ----------- -------------------------------end of styles----------------------------------------- ------------*/
+/* ----------- -------------------------------end of styles----------------------------------------- ------------*/ 
