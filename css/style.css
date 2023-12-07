@@ -334,6 +334,7 @@ img {
 .fourth-section-ul {
   display: flex;
   gap: 24px;
+
 }
 
 .employee-li-style {
@@ -538,9 +539,10 @@ fill: currentColor;
   }
   
   .footer-ul {
-  list-style: none;
-  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   gap: 16px;
+  list-style: none;
   }
   
   .footer-li {
@@ -578,6 +580,7 @@ fill: currentColor;
   justify-content: center;
   gap: 24px;
   list-style: none;
+  padding-left: 3px;
 }
 
 .employee-socmed-li {
