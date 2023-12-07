@@ -357,8 +357,8 @@ img {
 /* ----------- index section five ------------*/
 /* hw4 */
 .section-five {
-  padding-top: 120px;
-  padding-bottom: 120px;
+
+  padding-bottom: 120px 0;
 }
 
 .section-five-header {
@@ -373,7 +373,7 @@ margin-top: 72px;
 
 .section-five-ul {
 display: flex;
-gap: 24px;
+gap: 24px;  
 list-style: none;
 }
 
@@ -588,7 +588,6 @@ fill: currentColor;
 
 /* hw4 */
 .employee-socmed-ul {
-
   display: flex;
   justify-content: center;
   gap: 24px;
