@@ -360,7 +360,6 @@ font-size: 36px;
 line-height: 1.11;
 color: var(--navyblue);
 margin-bottom: 72px;
-display: block;
 }
 
 .section-five-ul {
@@ -536,7 +535,6 @@ fill: currentColor;
   letter-spacing: 0.02em;
   color: var(--white);
   display:block;
-  margin-bottom: 16px;
   }
   
   .footer-ul {
@@ -556,6 +554,7 @@ fill: currentColor;
   background-color: var(--iris);
   border-radius: 50%;
   display:flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   }
