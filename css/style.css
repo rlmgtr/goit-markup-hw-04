@@ -9,7 +9,6 @@
   --slate: #434455;
   --navyblue: #2e2f42;
 }
-
   /* ----------- default classes ------------*/
   body {
     font-family: Roboto, sans-serif;
@@ -362,6 +361,7 @@ line-height: 1.11;
 color: var(--navyblue);
 letter-spacing: 0.72px;
 margin-bottom: 72px;
+text-align: center;
 }
 
 .section-five-ul {
@@ -456,7 +456,6 @@ fill: currentColor;
 }
 
 /* buttons style */
-
 .portfolio-section {
   padding: 96px 0 120px 0;
 }
@@ -505,7 +504,7 @@ fill: currentColor;
 .footer-style {
   background-color: var(--navyblue);
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 .footer-paragraph {
   font-weight: 500;
@@ -519,15 +518,21 @@ display: block;
 margin-bottom: 16px;
 }
 
-.footer-div .footer-ul {gap:16px;} 
+
+
+
+
+
+.footer-socmed-div .footer-ul {gap:16px;} 
 
 .footerinside-logo {
   color: var(--cornflower);
 }
 /* hw4 */
-.footer-div {
+.footer-socmed-div {
   display:flex;
   align-items: baseline;
+  /* hw4- try */
   }
 
   .footerlogopardiv {
