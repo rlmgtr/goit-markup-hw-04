@@ -515,9 +515,11 @@ fill: currentColor;
   letter-spacing: 0.02em;
 /* hw3 */
 max-width: 264px;
- display: block;
+display: block;
 margin-bottom: 16px;
 }
+
+.footer-div .footer-ul {gap:16px;} 
 
 .footerinside-logo {
   color: var(--cornflower);
