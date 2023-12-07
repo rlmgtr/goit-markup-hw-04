@@ -351,18 +351,15 @@ img {
 /* ----------- index section five ------------*/
 /* hw4 */
 .section-five {
-
-  padding-bottom: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .section-five-header {
 font-size: 36px;
 line-height: 1.11;
 color: var(--navyblue);
-display:flex;
-justify-content: center;
 margin-bottom: 72px;
-margin-top: 72px;
 }
 
 .section-five-ul {
