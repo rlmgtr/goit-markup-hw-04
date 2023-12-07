@@ -505,6 +505,9 @@ fill: currentColor;
   background-color: var(--navyblue);
   display: flex;
   align-items: baseline;
+
+
+  
 }
 .footer-paragraph {
   font-weight: 500;
@@ -518,16 +521,13 @@ display: block;
 margin-bottom: 16px;
 }
 
-
-
-
-
+.footer-div {
+  display: flex;
+  align-items: baseline;
+}
 
 .footer-socmed-div .footer-ul {gap:16px;} 
 
-.footerinside-logo {
-  color: var(--cornflower);
-}
 /* hw4 */
 .footer-socmed-div {
   display:flex;
@@ -535,8 +535,12 @@ margin-bottom: 16px;
   /* hw4- try */
   }
 
-  .footerlogopardiv {
+.footer-logoandpar-div {
     margin-right: 120px;
+  }
+
+  .footerinside-logo {
+    color: var(--cornflower);
   }
   
   .footer-social-media {
